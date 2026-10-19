@@ -10,16 +10,6 @@ MD2Card 是一个简洁高效的 Markdown 转换工具，可以将 Markdown 文�
 - 💾 自动保存：编辑内容自动保存，无需担心丢失
 - 📤 导出图片：一键将卡片导出为图片格式
 
-## 🛠️ 技术栈
-
-- React + TypeScript
-- Vite
-- Tailwind CSS
-- Monaco Editor
-- Marked
-- Zustand
-- Styled Components
-
 ## TODO
 
 - ✅ 实现自动分页功能

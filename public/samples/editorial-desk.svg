@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5EFE6" />
+      <stop offset="100%" stop-color="#E6D7C3" />
+    </linearGradient>
+    <linearGradient id="sunlight" x1="0%" y1="0%" x2="100%" y2="80%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.65" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="coffee" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3E2723" />
+      <stop offset="100%" stop-color="#1B0F0D" />
+    </linearGradient>
+  </defs>
+  <!-- Warm oak & linen backdrop -->
+  <rect width="800" height="500" fill="url(#bg)" />
+  <!-- Window shadow blinds geometry -->
+  <polygon points="0,0 520,0 340,500 0,500" fill="url(#sunlight)" />
+  <line x1="0" y1="380" x2="800" y2="380" stroke="#C8B6A0" stroke-width="2" />
+  <rect x="0" y="380" width="800" height="120" fill="#DCC8B0" opacity="0.5" />
+
+  <!-- Open Editorial Notebook -->
+  <g transform="translate(110, 150)">
+    <rect x="0" y="8" width="310" height="215" rx="6" fill="#2A2421" opacity="0.14" />
+    <rect x="0" y="0" width="304" height="210" rx="4" fill="#FAF8F5" stroke="#D5CBBF" stroke-width="2" />
+    <line x1="152" y1="6" x2="152" y2="204" stroke="#E2D9CE" stroke-width="2" />
+    <!-- Left page layout sketch -->
+    <rect x="24" y="26" width="104" height="62" rx="2" fill="#EFECE6" stroke="#C7BDB1" stroke-width="1.5" />
+    <line x1="24" y1="106" x2="112" y2="106" stroke="#3C3530" stroke-width="3" stroke-linecap="round" />
+    <line x1="24" y1="122" x2="126" y2="122" stroke="#8C8278" stroke-width="2" stroke-linecap="round" />
+    <line x1="24" y1="136" x2="120" y2="136" stroke="#8C8278" stroke-width="2" stroke-linecap="round" />
+    <line x1="24" y1="150" x2="96" y2="150" stroke="#8C8278" stroke-width="2" stroke-linecap="round" />
+    <!-- Right page grid & red accent mark -->
+    <circle cx="192" cy="46" r="14" fill="#E11D48" opacity="0.85" />
+    <line x1="216" y1="40" x2="276" y2="40" stroke="#3C3530" stroke-width="3" stroke-linecap="round" />
+    <line x1="216" y1="52" x2="260" y2="52" stroke="#8C8278" stroke-width="2" stroke-linecap="round" />
+    <rect x="176" y="78" width="104" height="48" rx="2" fill="#F5F2EB" stroke="#D5CBBF" stroke-width="1.5" />
+    <rect x="176" y="138" width="104" height="48" rx="2" fill="#F5F2EB" stroke="#D5CBBF" stroke-width="1.5" />
+  </g>
+
+  <!-- Ceramic Pour-Over Coffee Carafe & Cup -->
+  <g transform="translate(485, 115)">
+    <!-- Shadow -->
+    <ellipse cx="95" cy="255" rx="78" ry="14" fill="#2A2421" opacity="0.18" />
+    <!-- Glass Server Base -->
+    <path d="M45,140 L145,140 L162,238 C164,248 155,255 142,255 L48,255 C35,255 26,248 28,238 Z" fill="#FFFFFF" fill-opacity="0.55" stroke="#5C4D42" stroke-width="2.5" />
+    <!-- Coffee Liquid -->
+    <path d="M36,188 L154,188 L160,236 C161,244 153,250 141,250 L49,250 C37,250 29,244 30,236 Z" fill="url(#coffee)" />
+    <!-- Glass Handle -->
+    <path d="M145,152 L172,152 C182,152 186,160 186,172 L186,210 C186,222 178,228 168,228 L158,228" fill="none" stroke="#5C4D42" stroke-width="4" stroke-linecap="round" />
+    <!-- Ceramic V60 Dripper -->
+    <polygon points="32,48 158,48 122,140 68,140" fill="#FAF6F0" stroke="#5C4D42" stroke-width="2.5" stroke-linejoin="round" />
+    <line x1="56" y1="68" x2="78" y2="132" stroke="#D8CFC4" stroke-width="2" />
+    <line x1="95" y1="68" x2="95" y2="132" stroke="#D8CFC4" stroke-width="2" />
+    <line x1="134" y1="68" x2="112" y2="132" stroke="#D8CFC4" stroke-width="2" />
+    <!-- Steam waves -->
+    <path d="M78,32 Q68,16 82,4" fill="none" stroke="#8C7A6B" stroke-width="2" stroke-linecap="round" opacity="0.6" />
+    <path d="M108,28 Q98,12 112,0" fill="none" stroke="#8C7A6B" stroke-width="2" stroke-linecap="round" opacity="0.6" />
+  </g>
+
+  <!-- Minimalist caption tag -->
+  <text x="48" y="452" font-family="sans-serif" font-size="15" font-weight="600" fill="#5C5346" letter-spacing="2">EDITORIAL STILL LIFE · 35MM STUDIO</text>
+</svg>

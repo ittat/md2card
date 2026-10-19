@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#141417" />
+  <!-- Subtle blueprint grid -->
+  <g stroke="#27272A" stroke-width="1">
+    <line x1="0" y1="90" x2="800" y2="90" />
+    <line x1="0" y1="180" x2="800" y2="180" />
+    <line x1="0" y1="270" x2="800" y2="270" />
+    <line x1="0" y1="360" x2="800" y2="360" />
+    <line x1="160" y1="0" x2="160" y2="450" />
+    <line x1="320" y1="0" x2="320" y2="450" />
+    <line x1="480" y1="0" x2="480" y2="450" />
+    <line x1="640" y1="0" x2="640" y2="450" />
+  </g>
+
+  <!-- Card 1: 3:4 RedNote Ratio -->
+  <g transform="translate(85, 55)">
+    <rect x="0" y="0" width="240" height="320" rx="10" fill="#FAF8F5" stroke="#E11D48" stroke-width="3" />
+    <rect x="18" y="20" width="204" height="280" rx="4" fill="none" stroke="#E4E4E7" stroke-width="1.5" stroke-dasharray="4 4" />
+    <text x="120" y="135" text-anchor="middle" font-family="monospace" font-size="36" font-weight="700" fill="#18181B">3 : 4</text>
+    <text x="120" y="170" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="600" fill="#E11D48">小红书标准竖图</text>
+    <text x="120" y="198" text-anchor="middle" font-family="monospace" font-size="13" fill="#71717A">1080 × 1440 px</text>
+    <rect x="52" y="226" width="136" height="28" rx="4" fill="#F4F4F5" />
+    <text x="120" y="245" text-anchor="middle" font-family="monospace" font-size="12" fill="#52525B">SAFE ZONE 36px</text>
+  </g>
+
+  <!-- Card 2: 9:16 Douyin Ratio -->
+  <g transform="translate(380, 35)">
+    <rect x="0" y="0" width="202" height="360" rx="10" fill="#1F1F23" stroke="#F59E0B" stroke-width="2.5" />
+    <rect x="16" y="20" width="170" height="320" rx="4" fill="none" stroke="#3F3F46" stroke-width="1.5" stroke-dasharray="4 4" />
+    <text x="101" y="155" text-anchor="middle" font-family="monospace" font-size="34" font-weight="700" fill="#FAFAFA">9 : 16</text>
+    <text x="101" y="190" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="600" fill="#F59E0B">抖音全屏图文</text>
+    <text x="101" y="218" text-anchor="middle" font-family="monospace" font-size="13" fill="#A1A1AA">1080 × 1920 px</text>
+  </g>
+
+  <!-- Card 3: 1:1 Square Ratio -->
+  <g transform="translate(625, 115)">
+    <rect x="0" y="0" width="120" height="120" rx="8" fill="#27272A" stroke="#A1A1AA" stroke-width="2" />
+    <text x="60" y="62" text-anchor="middle" font-family="monospace" font-size="22" font-weight="700" fill="#FAFAFA">1 : 1</text>
+    <text x="60" y="88" text-anchor="middle" font-family="monospace" font-size="11" fill="#D4D4D8">1080×1080</text>
+  </g>
+</svg>
