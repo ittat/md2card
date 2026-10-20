@@ -43,4 +43,4 @@ pnpm build
 
 ## 📸 预览
 
-![项目预览](src/assets/image.png)
+![项目预览](image.png)
